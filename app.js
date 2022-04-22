@@ -3,4 +3,6 @@ const chalk = require('chalk')
 
 console.log(getNotes())
 
-console.log(chalk.green("Success!"))
+const finalText = chalk.bold.inverse.green("Success!")
+
+console.log(finalText)
